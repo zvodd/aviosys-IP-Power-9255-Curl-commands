@@ -22,9 +22,9 @@ curl --data-binary "@off.input" -b"admin=12345678; Taifatech=yes"  -H "Content-T
 ### *nix env 
 Turn ON
 ```
-curl --data-binary "pw1Name=PSU_DEV_1\nP60=On\nP60_TS=0\nP60_TC=Off\nButtonName=Apply\n" -b"admin=12345678; Taifatech=yes"  -H "Content-Type: text/ plain" -XPOST "192.168.0.90/tgi/iocontrol.tgi"
+curl --data-binary "pw1Name=PSU_DEV_1\nP60=On\nP60_TS=0\nP60_TC=Off\nButtonName=Apply\n" -b"admin=12345678; Taifatech=yes"  -H "Content-Type: text/plain" -XPOST "192.168.0.90/tgi/iocontrol.tgi"
 ```
 Turn OFF
 ```
-curl --data-binary "pw1Name=PSU_DEV_1\nP60=Off\nP60_TS=0\nP60_TC=Off\nButtonName=Apply\n" -b"admin=12345678; Taifatech=yes"  -H "Content-Type: text/ plain" -XPOST "192.168.0.90/tgi/iocontrol.tgi"
+curl --data-binary "pw1Name=PSU_DEV_1\nP60=Off\nP60_TS=0\nP60_TC=Off\nButtonName=Apply\n" -b"admin=12345678; Taifatech=yes"  -H "Content-Type: text/plain" -XPOST "192.168.0.90/tgi/iocontrol.tgi"
 ```
